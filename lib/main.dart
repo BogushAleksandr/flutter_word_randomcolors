@@ -8,8 +8,9 @@ class MyColors extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Hello, World",
-      color: Colors.pink,
+      debugShowCheckedModeBanner: false,
+     // title: "Hello, World",
+     // color: Colors.pink,
       home: Scaffold(
         /* appBar: AppBar(
           title: Text("First Title"),
@@ -25,8 +26,10 @@ class MyColors extends StatelessWidget {
           ),
         ),
         //backgroundColor: Colors.limeAccent,
-        backgroundColor: Colors.limeAccent,
+        backgroundColor: Colors.pink,
       ),
+
+
     );
   }
 }
