@@ -22,6 +22,7 @@ class MyColors extends StatelessWidget {
           child: Container(
             // color: Colors.deepOrange,
             child: Text("Second Title"),
+
             //  alignment: Alignment.center,
           ),
         ),
