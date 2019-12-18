@@ -9,8 +9,6 @@ class MyColors extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-     // title: "Hello, World",
-     // color: Colors.pink,
       home: Scaffold(
         /* appBar: AppBar(
           title: Text("First Title"),
@@ -21,12 +19,12 @@ class MyColors extends StatelessWidget {
         body: Center(
           child: Container(
             // color: Colors.deepOrange,
-            child: Text("Second Title"),
+            child: Text("Hey there"),//Hey there
 
             //  alignment: Alignment.center,
           ),
         ),
-        //backgroundColor: Colors.limeAccent,
+
         backgroundColor: Colors.pink,
       ),
 
